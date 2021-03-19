@@ -1,0 +1,9 @@
+Packages
+.build
+DerivedData/
+.DS_Store
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+Secrets.swift
+CodeExamples.swift

@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA0ADF7125FADF5B00DC8FC0 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF7025FADF5B00DC8FC0 /* ApiController.swift */; };
+		DA0ADF7625FAEDD900DC8FC0 /* PublicUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF7525FAEDD900DC8FC0 /* PublicUser.swift */; };
+		DA0ADF7925FAF01500DC8FC0 /* CodeExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF7825FAF01500DC8FC0 /* CodeExamples.swift */; };
+		DA0ADF7C25FAF1C200DC8FC0 /* MessagesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF7B25FAF1C200DC8FC0 /* MessagesListView.swift */; };
+		DA0ADF7F25FAF7A600DC8FC0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF7E25FAF7A600DC8FC0 /* RegisterView.swift */; };
+		DA0ADF8325FB03F100DC8FC0 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF8225FB03F100DC8FC0 /* Session.swift */; };
+		DA0ADF8625FEE00000DC8FC0 /* ReturnedServerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF8525FEE00000DC8FC0 /* ReturnedServerErrors.swift */; };
+		DA0ADF8925FEE4D900DC8FC0 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF8825FEE4D900DC8FC0 /* Errors.swift */; };
+		DA0ADF9525FF9B6800DC8FC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF9425FF9B6700DC8FC0 /* Constants.swift */; };
+		DA0ADF9925FFAD5600DC8FC0 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF9825FFAD5500DC8FC0 /* UserSignUp.swift */; };
+		DA0ADF9D25FFB22600DC8FC0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF9C25FFB22600DC8FC0 /* UserManager.swift */; };
+		DA0ADFA025FFBC7500DC8FC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADF9F25FFBC7500DC8FC0 /* ProfileView.swift */; };
+		DA0ADFA525FFC78000DC8FC0 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADFA425FFC78000DC8FC0 /* UserLogin.swift */; };
+		DA0ADFA92600296600DC8FC0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADFA82600296600DC8FC0 /* LoginView.swift */; };
+		DA0ADFB32602171F00DC8FC0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADFB22602171F00DC8FC0 /* MessageView.swift */; };
+		DA0ADFBC26038C6300DC8FC0 /* MessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADFBB26038C6300DC8FC0 /* MessagesManager.swift */; };
+		DA0ADFC42604275500DC8FC0 /* PublicUsersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADFC32604275500DC8FC0 /* PublicUsersManager.swift */; };
+		DA0ADFD02604BF9000DC8FC0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA0ADFCF2604BF9000DC8FC0 /* README.md */; };
+		DA0ADFD32604D0F500DC8FC0 /* OwnUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ADFD22604D0F400DC8FC0 /* OwnUser.swift */; };
+		DABB7B5C25FA241900F05AFB /* PGMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB7B5B25FA241900F05AFB /* PGMessengerApp.swift */; };
+		DABB7B5E25FA241900F05AFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB7B5D25FA241900F05AFB /* MainView.swift */; };
+		DABB7B6025FA241B00F05AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABB7B5F25FA241B00F05AFB /* Assets.xcassets */; };
+		DABB7B6325FA241B00F05AFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABB7B6225FA241B00F05AFB /* Preview Assets.xcassets */; };
+		DABB7B6C25FA244F00F05AFB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB7B6B25FA244F00F05AFB /* User.swift */; };
+		DABB7B7125FA253700F05AFB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB7B7025FA253700F05AFB /* Message.swift */; };
+		DABB7B7825FA287B00F05AFB /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB7B7725FA287B00F05AFB /* MessagesController.swift */; };
+		DABB7B7B25FA289E00F05AFB /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB7B7A25FA289E00F05AFB /* UserController.swift */; };
+		DABB7B8525FA4A3000F05AFB /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB7B8425FA4A3000F05AFB /* Secrets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA0ADF7025FADF5B00DC8FC0 /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
+		DA0ADF7525FAEDD900DC8FC0 /* PublicUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicUser.swift; sourceTree = "<group>"; };
+		DA0ADF7825FAF01500DC8FC0 /* CodeExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExamples.swift; sourceTree = "<group>"; };
+		DA0ADF7B25FAF1C200DC8FC0 /* MessagesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListView.swift; sourceTree = "<group>"; };
+		DA0ADF7E25FAF7A600DC8FC0 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		DA0ADF8225FB03F100DC8FC0 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		DA0ADF8525FEE00000DC8FC0 /* ReturnedServerErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnedServerErrors.swift; sourceTree = "<group>"; };
+		DA0ADF8825FEE4D900DC8FC0 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		DA0ADF9425FF9B6700DC8FC0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DA0ADF9825FFAD5500DC8FC0 /* UserSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUp.swift; sourceTree = "<group>"; };
+		DA0ADF9C25FFB22600DC8FC0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		DA0ADF9F25FFBC7500DC8FC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DA0ADFA425FFC78000DC8FC0 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		DA0ADFA82600296600DC8FC0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DA0ADFB22602171F00DC8FC0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		DA0ADFBB26038C6300DC8FC0 /* MessagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesManager.swift; sourceTree = "<group>"; };
+		DA0ADFC32604275500DC8FC0 /* PublicUsersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicUsersManager.swift; sourceTree = "<group>"; };
+		DA0ADFCF2604BF9000DC8FC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA0ADFD22604D0F400DC8FC0 /* OwnUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnUser.swift; sourceTree = "<group>"; };
+		DABB7B5825FA241900F05AFB /* PGMessengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGMessengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABB7B5B25FA241900F05AFB /* PGMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGMessengerApp.swift; sourceTree = "<group>"; };
+		DABB7B5D25FA241900F05AFB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DABB7B5F25FA241B00F05AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABB7B6225FA241B00F05AFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DABB7B6425FA241B00F05AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABB7B6B25FA244F00F05AFB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DABB7B7025FA253700F05AFB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DABB7B7725FA287B00F05AFB /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		DABB7B7A25FA289E00F05AFB /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		DABB7B8425FA4A3000F05AFB /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABB7B5525FA241900F05AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA0ADFAE2602165500DC8FC0 /* UserViews */ = {
+			isa = PBXGroup;
+			children = (
+				DA0ADF7E25FAF7A600DC8FC0 /* RegisterView.swift */,
+				DA0ADFA82600296600DC8FC0 /* LoginView.swift */,
+				DA0ADF9F25FFBC7500DC8FC0 /* ProfileView.swift */,
+			);
+			path = UserViews;
+			sourceTree = "<group>";
+		};
+		DA0ADFB02602166800DC8FC0 /* MessagesViews */ = {
+			isa = PBXGroup;
+			children = (
+				DA0ADF7B25FAF1C200DC8FC0 /* MessagesListView.swift */,
+				DA0ADFB22602171F00DC8FC0 /* MessageView.swift */,
+			);
+			path = MessagesViews;
+			sourceTree = "<group>";
+		};
+		DA0ADFBE26038D2800DC8FC0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				DABB7B6B25FA244F00F05AFB /* User.swift */,
+				DA0ADF9825FFAD5500DC8FC0 /* UserSignUp.swift */,
+				DA0ADFA425FFC78000DC8FC0 /* UserLogin.swift */,
+				DA0ADF7525FAEDD900DC8FC0 /* PublicUser.swift */,
+				DA0ADFD22604D0F400DC8FC0 /* OwnUser.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		DABB7B4F25FA241900F05AFB = {
+			isa = PBXGroup;
+			children = (
+				DA0ADFCF2604BF9000DC8FC0 /* README.md */,
+				DABB7B5A25FA241900F05AFB /* PGMessengerApp */,
+				DABB7B5925FA241900F05AFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABB7B5925FA241900F05AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABB7B5825FA241900F05AFB /* PGMessengerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABB7B5A25FA241900F05AFB /* PGMessengerApp */ = {
+			isa = PBXGroup;
+			children = (
+				DABB7B6125FA241B00F05AFB /* Preview Content */,
+				DABB7B5B25FA241900F05AFB /* PGMessengerApp.swift */,
+				DABB7B5F25FA241B00F05AFB /* Assets.xcassets */,
+				DABB7B6425FA241B00F05AFB /* Info.plist */,
+				DABB7B8325FA49FF00F05AFB /* Helpers */,
+				DABB7B6E25FA246000F05AFB /* Models */,
+				DABB7B7D25FA28AE00F05AFB /* Controllers */,
+				DABB7B7F25FA28D300F05AFB /* Views */,
+			);
+			path = PGMessengerApp;
+			sourceTree = "<group>";
+		};
+		DABB7B6125FA241B00F05AFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DABB7B6225FA241B00F05AFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DABB7B6E25FA246000F05AFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA0ADF9C25FFB22600DC8FC0 /* UserManager.swift */,
+				DA0ADFBB26038C6300DC8FC0 /* MessagesManager.swift */,
+				DA0ADFC32604275500DC8FC0 /* PublicUsersManager.swift */,
+				DA0ADFBE26038D2800DC8FC0 /* User */,
+				DABB7B7025FA253700F05AFB /* Message.swift */,
+				DA0ADF8225FB03F100DC8FC0 /* Session.swift */,
+				DA0ADF8525FEE00000DC8FC0 /* ReturnedServerErrors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DABB7B7D25FA28AE00F05AFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA0ADF7025FADF5B00DC8FC0 /* ApiController.swift */,
+				DABB7B7A25FA289E00F05AFB /* UserController.swift */,
+				DABB7B7725FA287B00F05AFB /* MessagesController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DABB7B7F25FA28D300F05AFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DABB7B5D25FA241900F05AFB /* MainView.swift */,
+				DA0ADFAE2602165500DC8FC0 /* UserViews */,
+				DA0ADFB02602166800DC8FC0 /* MessagesViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DABB7B8325FA49FF00F05AFB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DABB7B8425FA4A3000F05AFB /* Secrets.swift */,
+				DA0ADF7825FAF01500DC8FC0 /* CodeExamples.swift */,
+				DA0ADF8825FEE4D900DC8FC0 /* Errors.swift */,
+				DA0ADF9425FF9B6700DC8FC0 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABB7B5725FA241900F05AFB /* PGMessengerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABB7B6725FA241B00F05AFB /* Build configuration list for PBXNativeTarget "PGMessengerApp" */;
+			buildPhases = (
+				DABB7B5425FA241900F05AFB /* Sources */,
+				DABB7B5525FA241900F05AFB /* Frameworks */,
+				DABB7B5625FA241900F05AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGMessengerApp;
+			productName = CloudMessengerApp;
+			productReference = DABB7B5825FA241900F05AFB /* PGMessengerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABB7B5025FA241900F05AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DABB7B5725FA241900F05AFB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DABB7B5325FA241900F05AFB /* Build configuration list for PBXProject "PGMessengerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABB7B4F25FA241900F05AFB;
+			productRefGroup = DABB7B5925FA241900F05AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABB7B5725FA241900F05AFB /* PGMessengerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABB7B5625FA241900F05AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0ADFD02604BF9000DC8FC0 /* README.md in Resources */,
+				DABB7B6325FA241B00F05AFB /* Preview Assets.xcassets in Resources */,
+				DABB7B6025FA241B00F05AFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABB7B5425FA241900F05AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0ADF8325FB03F100DC8FC0 /* Session.swift in Sources */,
+				DA0ADF9525FF9B6800DC8FC0 /* Constants.swift in Sources */,
+				DA0ADF9D25FFB22600DC8FC0 /* UserManager.swift in Sources */,
+				DA0ADF9925FFAD5600DC8FC0 /* UserSignUp.swift in Sources */,
+				DABB7B5E25FA241900F05AFB /* MainView.swift in Sources */,
+				DA0ADFA525FFC78000DC8FC0 /* UserLogin.swift in Sources */,
+				DABB7B8525FA4A3000F05AFB /* Secrets.swift in Sources */,
+				DA0ADF8625FEE00000DC8FC0 /* ReturnedServerErrors.swift in Sources */,
+				DA0ADFA92600296600DC8FC0 /* LoginView.swift in Sources */,
+				DA0ADFA025FFBC7500DC8FC0 /* ProfileView.swift in Sources */,
+				DA0ADF8925FEE4D900DC8FC0 /* Errors.swift in Sources */,
+				DA0ADFBC26038C6300DC8FC0 /* MessagesManager.swift in Sources */,
+				DA0ADF7F25FAF7A600DC8FC0 /* RegisterView.swift in Sources */,
+				DABB7B7125FA253700F05AFB /* Message.swift in Sources */,
+				DA0ADFC42604275500DC8FC0 /* PublicUsersManager.swift in Sources */,
+				DA0ADF7C25FAF1C200DC8FC0 /* MessagesListView.swift in Sources */,
+				DABB7B6C25FA244F00F05AFB /* User.swift in Sources */,
+				DABB7B7B25FA289E00F05AFB /* UserController.swift in Sources */,
+				DA0ADF7925FAF01500DC8FC0 /* CodeExamples.swift in Sources */,
+				DABB7B5C25FA241900F05AFB /* PGMessengerApp.swift in Sources */,
+				DA0ADFD32604D0F500DC8FC0 /* OwnUser.swift in Sources */,
+				DA0ADF7625FAEDD900DC8FC0 /* PublicUser.swift in Sources */,
+				DA0ADFB32602171F00DC8FC0 /* MessageView.swift in Sources */,
+				DABB7B7825FA287B00F05AFB /* MessagesController.swift in Sources */,
+				DA0ADF7125FADF5B00DC8FC0 /* ApiController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DABB7B6525FA241B00F05AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DABB7B6625FA241B00F05AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABB7B6825FA241B00F05AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PGMessengerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9FPT3XW32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PGMessengerApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedric06nice.PGMessengerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABB7B6925FA241B00F05AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PGMessengerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9FPT3XW32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PGMessengerApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedric06nice.PGMessengerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABB7B5325FA241900F05AFB /* Build configuration list for PBXProject "PGMessengerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABB7B6525FA241B00F05AFB /* Debug */,
+				DABB7B6625FA241B00F05AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABB7B6725FA241B00F05AFB /* Build configuration list for PBXNativeTarget "PGMessengerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABB7B6825FA241B00F05AFB /* Debug */,
+				DABB7B6925FA241B00F05AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABB7B5025FA241900F05AFB /* Project object */;
+}
