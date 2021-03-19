@@ -1,5 +1,5 @@
 # PGMessengerApp
-### Défi de PurpleGirafe - Mars 2021
+### Défi de PurpleGiraffe - Mars 2021
 
 Application SwiftUI
 
